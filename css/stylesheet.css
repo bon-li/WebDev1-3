@@ -1,0 +1,59 @@
+#mainheader {
+    color:beige;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 4px -4px 8px pink;
+    padding-bottom: 10px;
+}
+body {
+    background-image:url(../images/linear-high-bay-light-in-tennis-court-770-900lux.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+table {
+    width:100%;
+    text-align:center;
+    /* each cell taking up same amount of space
+    images all same size and fit properly in column space */
+}
+td {
+    padding: 20px;
+    width:33%;
+}
+#cellstyle {
+    font-size: 1.5em;
+    color: purple;
+}
+#letter1 {
+    font-size: 3em;
+}
+#info {
+    font-style:italic;
+    color:purple;
+}
+img {
+    width:300px;
+    padding:10px;
+    margin-left:15px;
+}
+#imageleft {
+    float: left;
+    width: auto;
+    height: auto;
+    margin: 0 40px 10px 0;
+}
+#list {
+    font-size: 1.5em;
+    margin-bottom:auto;
+}
+footer {
+    font-size: 0.75em;
+    font-style: italic;
+    text-align:left;
+}
+.content2 {
+    display:grid;
+    grid-template-areas: "i l" "f f"
+
+}
